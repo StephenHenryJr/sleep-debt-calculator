@@ -8,19 +8,19 @@
     <link rel="stylesheet" href="./tailwind/output.css">
 </head>
 <body>
-    <div class="container m-auto flex justify-center items-center v-screen h-screen bg-teal-100">
+    <div class="container m-auto flex justify-center items-center v-screen h-screen bg-teal-100 font-mono">
         <div class="container rounded p-6 w-1/2 h-1/2 bg-slate-400 text-center text-white">
-            <h1 class="text-6xl">Sleep Debt Calculaor</h1>
+            <h1 class="text-5xl mb-4">Sleep Debt Calculaor</h1>
             <p>
                 Calculate your sleep intake and determine your deficiency!
                 <br>
-                On average, they say you should get 8hours of sleep every night...
+                On average, they say you should get 8 hours of sleep every night...
             </p>
             <form class="my-2" action="">
-                <input type="text">
+                <input id="input" class="p-2 rounded text-black" type="text">
             </form>
-            <button class="bg-white p-2 text-slate-400 rounded">Calculate</button>
-            <p class="response">
+            <button id="button" class="bg-white p-2 text-slate-400 rounded">Calculate</button>
+            <p id="responseField" class="my-2 text-xl">
                 
             </p>
         </div>
